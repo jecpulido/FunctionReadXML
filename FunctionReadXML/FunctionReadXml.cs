@@ -10,7 +10,7 @@ namespace FunctionReadXML
     public static class FunctionReadXml
     {
         [FunctionName("FunctionReadXml")]
-        public static void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log, ExecutionContext context)
+        public static void Run([TimerTrigger("0 */30 * * * *")]TimerInfo myTimer, ILogger log, ExecutionContext context)
         {           
             try
             {
